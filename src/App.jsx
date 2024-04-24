@@ -48,7 +48,7 @@ function App() {
       <h1 className='title'>SHuffle Poet</h1>
       <div className='principal'>
         <form action="submit" onSubmit={(e)=>{handleSubmit(e)}}>
-          <label htmlFor=""><h4>Please enter your text here</h4> </label>
+          <label htmlFor=""><h4>Please enter your text here:</h4> </label>
           <input type='text' onChange={(e)=>{handleOnChange(e)}}/>
           
           <button>Mix words</button>
